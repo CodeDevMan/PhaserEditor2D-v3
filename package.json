@@ -1,20 +1,27 @@
 {
-    "name": "PhaserEditor2D-v3",
-    "version": "1.0.0",
-    "description": "",
-    "scripts": {
-        "build": "echo \"No build specified\" && exit 1",
-        "test": "echo \"No test specified\" && exit 1",
-        "start": "node index.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/CodeDevMan/PhaserEditor2D-v3.git"
-    },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/CodeDevMan/PhaserEditor2D-v3/issues"
-    },
-    "homepage": "https://github.com/CodeDevMan/PhaserEditor2D-v3#readme"
+  "name": "PhaseEditor2D-v3",
+  "version": "1.0.0",
+  "description": "Expressjs Hello World example to provide faster start deploying on Cyclic platform",
+  "main": "server.js",
+  "scripts": {
+    "serve": "nodemon --watch . server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Codedevman/PhaseEditor2D-v3.git"
+  },
+  "author": "Cyclic Software",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Codedevman/GoldenGames/issues"
+  },
+  "homepage": "https://github.com/CodeDevMan/PhaseEditor2D-v3/",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
 }
